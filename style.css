@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *
 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -87,14 +88,17 @@ h1
 
 #foot
 {
+    width: 95%;
     color: white;
-    margin : 90px ;
-    display: flex;
-    justify-content: space-between;
+    position: absolute;
+    margin-left: 50px;
+    /* margin-right: 850px; */
+    bottom: 20px;
 }
 
 #input
 {
+    display: inline;
     color: white;
 }
 
@@ -102,3 +106,8 @@ h1
 {
     padding-left: 30px;
 }
+
+#newArray
+{
+    float: right;
+} 

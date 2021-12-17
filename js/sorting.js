@@ -96,7 +96,7 @@ function createNewArray(noOfBars = 20) {
     // creating an array of random numbers 
     array = [];
     for (let i = 0; i < noOfBars; i++) {
-        array.push(Math.floor(Math.random() * 250) + 1);
+        array.push(Math.floor(Math.random() * 200) + 1);
     }
     console.log(array);
 
